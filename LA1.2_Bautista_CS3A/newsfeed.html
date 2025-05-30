@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social Media News Feed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="Site Logo" />
+    </div>
+    <nav>
+      <a href="#" aria-label="Home">Home</a>
+      <a href="#" aria-label="Messages">Messages</a>
+      <a href="#" aria-label="Notifications">Notification</a>
+      <a href="#" aria-label="Logout">Logout?</a>
+    </nav>
+    <div class="profile-pic">
+      <img src="portrait.png" alt="Your Profile Picture" />
+    </div>
+  </header>
+
+  <section class="write-post" aria-label="Create a Post">
+    <img src="portrait.png" alt="Profile Picture" />
+    <input type="text" placeholder="What's on your mind?" aria-label="Post input" />
+  </section>
+
+  
+  <main class="main-content">
+   
+    <article class="post" aria-label="User Post">
+      <div class="user-info">
+        <img src="portrait.png" alt="AJ's Profile" />
+        <div>
+          <h4>AJ Diego</h4>
+          <span>1m ago</span>
+        </div>
+      </div>
+      <p>
+        <strong>CREATING MEMORIES</strong>
+      </p>
+      <img src="portrait.png" alt="MY PROFILE PICTURE" class="post-img" />
+      <div class="icons" role="group" aria-label="Post actions">
+        
+      </div>
+    </article>
+
+  
+    <aside class="sidebar" aria-label="User Sidebar">
+      <section>
+        <h2>Friends</h2>
+        <ul>
+          <li>Lala<span class="online" title="Online"></span></li>
+          <li>MIMI<span class="offline" title="Offline"></span></li>
+          <li>Kikay<span class="offline" title="Offline"></span></li>
+        </ul>
+      </section>
+      <hr />
+      <section>
+        <h2>Groups</h2>
+        <ul>
+          <li>BTS</li>
+          <li>LIKERS</li>
+        </ul>
+      </section>
+    </aside>
+  </main>
+
+  
+  <script>
+    console.log("Newsfeed loaded successfully.");
+  </script>
+</body>
+</html>
